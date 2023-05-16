@@ -1,0 +1,6 @@
+{
+  "empresa-prueba": {
+    "ruta": "path\\Certificado.p12",
+    "clave": "123456"
+  }
+}

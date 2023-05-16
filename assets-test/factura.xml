@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AttachedDocument xmlns="urn:oasis:names:specification:ubl:schema:xsd:AttachedDocument-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent/>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>UBL 2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID>Documentos adjuntos</cbc:CustomizationID>
+	<cbc:ProfileID>Factura Electrónica de Venta</cbc:ProfileID>
+	<cbc:ProfileExecutionID>1</cbc:ProfileExecutionID>
+	<cbc:ID>2</cbc:ID>
+	<cbc:IssueDate>2022-09-30</cbc:IssueDate>
+	<cbc:IssueTime>22:39:48-05:00</cbc:IssueTime>
+	<cbc:DocumentType>Contenedor de Factura Electrónica</cbc:DocumentType>
+	<cbc:ParentDocumentID>PRU1233</cbc:ParentDocumentID>
+	<cac:SenderParty>
+		<cac:PartyTaxScheme>
+			<cbc:RegistrationName>Prueba</cbc:RegistrationName>
+			<cbc:CompanyID schemeAgencyID="195" schemeID="1" schemeName="31">123456</cbc:CompanyID>
+			<cbc:TaxLevelCode>R-99-PN</cbc:TaxLevelCode>
+		</cac:PartyTaxScheme>
+	</cac:SenderParty>
+	<cac:ReceiverParty>
+		<cac:PartyTaxScheme>
+			<cbc:RegistrationName>Prueba</cbc:RegistrationName>
+			<cbc:CompanyID schemeAgencyID="195" schemeID="0" schemeName="2">123456</cbc:CompanyID>
+			<cbc:TaxLevelCode>R-99-PN</cbc:TaxLevelCode>
+		</cac:PartyTaxScheme>
+	</cac:ReceiverParty>
+	<cac:Attachment>
+    		<cac:ExternalReference>
+				</cac:ExternalReference>
+			</cac:Attachment>
+			<cac:ResultOfVerification>
+				<cbc:ValidatorID>Unidad Especial Dirección de Impuestos y Aduanas Nacionales</cbc:ValidatorID>
+				<cbc:ValidationResultCode>02</cbc:ValidationResultCode>
+				<cbc:ValidationDate>2022-09-28</cbc:ValidationDate>
+				<cbc:ValidationTime>13:42:46-05:00</cbc:ValidationTime>
+			</cac:ResultOfVerification>
+		</cac:DocumentReference>
+	</cac:ParentDocumentLineReference>
+</AttachedDocument>
